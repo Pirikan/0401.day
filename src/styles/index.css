@@ -1,0 +1,27 @@
+.time-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 95vh;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+.time {
+    color: #FF8C00;
+    background: -webkit-linear-gradient(0deg, #40E0D0, #FF8C00, #FF0080);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.Footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Footer * {
+    margin: 0 0.5rem;
+}
+
+

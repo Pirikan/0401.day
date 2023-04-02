@@ -1,19 +1,26 @@
 ---
+import '../styles/index.css';
+import Footer from '../common/Footer.astro';
 ---
 
-<html lang="en">
+<html>
 	<head>
 		<meta charset="utf-8" />
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
 		<meta name="viewport" content="width=device-width" />
 		<meta name="generator" content={Astro.generator} />
 		<title>0401.day</title>
 	</head>
 	<body>
 	<div class="time-container">
-      <p class="time"><span id="day"></span>:<span id="hour"></span>:<span id="min"></span>:<span id="sec"></span></p>
+    	<h1 class="time"><span id="day"></span>:<span id="hour"></span>:<span id="min"></span>:<span id="sec"></span></h1>
     </div>
+	<Footer />
 	<script>
+		import "../script/0401"
 
 	</script>
 	</body>
