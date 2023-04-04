@@ -1,4 +1,4 @@
-		// カウントダウンのターゲット日を設定する
+// カウントダウンのターゲット日を設定する
 		let targetYear = new Date().getFullYear();
 		const currentMonth = new Date().getMonth();
 
