@@ -15,4 +15,4 @@ Please feel free to use it for digital signage or to kill time etc.
 1. Available to play Tetris to kill time.
 1. If there is a function you want to add, please create an [issue](https://github.com/Pirikan/0401.day/issues).
 
-**<p align="center">Powered by <a href="https://mt-auto-minhon-mlt.ucri.jgn-x.jp/">NICT</a></p>**
+**<div align="center">Powered by <a href="https://mt-auto-minhon-mlt.ucri.jgn-x.jp/">NICT</a></div>**

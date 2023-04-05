@@ -15,7 +15,7 @@
 1. 暇つぶしの為にテトリスを遊べるようにする予定です。
 1. 追加して欲しい機能がある場合は、新しい[issue](https://github.com/Pirikan/0401.day/issues)を作成して下さい。
 
-**<p align="center">Powered by <a href="https://mt-auto-minhon-mlt.ucri.jgn-x.jp/">NICT</a></p>**
+**<div align="center">Powered by <a href="https://mt-auto-minhon-mlt.ucri.jgn-x.jp/">NICT</a></div>**
 
 
 
