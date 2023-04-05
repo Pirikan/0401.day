@@ -1,3 +1,7 @@
+:root {
+	--timer_fs: 3rem;
+}
+
 .time-container {
     display: flex;
     justify-content: center;
@@ -5,12 +9,13 @@
     height: 95vh;
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
-    font-size: 3rem;
+    font-size: var(--timer_fs);
 }
 
 .time {
     color: #FF8C00;
     background: -webkit-linear-gradient(0deg, #40E0D0, #FF8C00, #FF0080);
+    background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -21,7 +26,29 @@
     align-items: center;
 }
 .Footer * {
-    margin: 0 0.5rem;
+    margin: 0 0.25rem;
 }
+
+@media screen and (max-width: 636px) {
+    :root {
+        --timer_fs: 2.3rem;
+    }
+}
+@media screen and (max-width: 420px) {
+    :root {
+        --timer_fs: 1.7rem;
+    }
+}
+@media screen and (max-width: 400px) {
+    :root {
+        --timer_fs: 1.5rem;
+    }
+}
+@media screen and (max-width: 320px) {
+    :root {
+        --timer_fs: 1.4rem;
+    }
+}
+
 
 

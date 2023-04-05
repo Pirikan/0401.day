@@ -11,6 +11,14 @@
   },
   "dependencies": {
     "@astrojs/cloudflare": "^6.2.2",
-    "astro": "^2.1.9"
+    "@astrojs/react": "^2.1.1",
+    "@types/react": "^18.0.33",
+    "@types/react-dom": "^18.0.11",
+    "astro": "^2.1.9",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "astro-short-urls": "0.0.1"
   }
 }
