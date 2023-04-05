@@ -1,47 +1,20 @@
-# Astro Starter Kit: Minimal
+# 0401.day
+[日本語](README-ja.md)|[English](README.md)
+---|---
 
-```
-npm create astro@latest -- --template minimal
-```
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/minimal)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/minimal)
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/minimal/devcontainer.json)
+## 🌸 Purpose of this site
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+It is a site that counts the number of days until April Fool's Day.  
+I created this site because there was an available domain called **0401.day**.  
+However, it is a premium domain, so the maintenance cost is high.  
+Please feel free to use it for digital signage or to kill time etc.
 
-## 🚀 Project Structure
+## 🧞 Road Map
 
-Inside of your Astro project, you'll see the following folders and files:
+1. Available to play Tetris to kill time.
+1. If there is a function you want to add, please create an [issue](https://github.com/Pirikan/0401.day/issues).
 
-```
-/
-├── public/
-├── src/
-│   └── pages/
-│       └── index.astro
-└── package.json
-```
-
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
-
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
-
-Any static assets, like images, can be placed in the `public/` directory.
-
-## 🧞 Commands
-
-All commands are run from the root of the project, from a terminal:
-
-| Command                | Action                                           |
-| :--------------------- | :----------------------------------------------- |
-| `npm install`          | Installs dependencies                            |
-| `npm run dev`          | Starts local dev server at `localhost:3000`      |
-| `npm run build`        | Build your production site to `./dist/`          |
-| `npm run preview`      | Preview your build locally, before deploying     |
-| `npm run astro ...`    | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro --help` | Get help using the Astro CLI                     |
-
-## 👀 Want to learn more?
-
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+<div style="text-align: center; font-weight: bold;">
+Powered by <a href="https://mt-auto-minhon-mlt.ucri.jgn-x.jp/">NICT
+</div>
